@@ -1,0 +1,68 @@
+.todo-title{
+    font-size :35px; 
+    color: orange;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.news{
+    padding: 5px;
+    font-size: 20px;
+    margin: 50px 10px 30px 100px;
+    
+}
+
+.btnAdd{
+    font-size: 20px;
+    padding: 5px 20px;
+    background-color: rgb(95, 153, 225);
+    color: white;
+    border: 1px solid ;
+}
+.todo-container{
+    border: 1px solid;
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+}
+.todo-data{
+    margin-left: 100px;
+}
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+   .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+
+
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
